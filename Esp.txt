@@ -27,8 +27,8 @@ local LineBox = {}
 local UIButtons = {}
 local Sliders = {}
 local ColorPicker = { Loading = false, LastGenerated = 0 }
-local Dragging = false
-local DraggingUI = false
+local Dragging = true
+local DraggingUI = true
 local Rainbow = false
 local DragOffset = V2New()
 local DraggingWhat = nil
